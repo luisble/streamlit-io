@@ -3,6 +3,7 @@ import streamlit as st
 # import pandas as pd
 # import time
 
+image = "..\images\rainbow-lights-1491649.jpg"
 col1, col2 = st.columns(2)
 
 original = Image.open(image)
