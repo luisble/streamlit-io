@@ -1,6 +1,6 @@
 import streamlit as st
 
-#image = './app/static/cat_background.jpg'
+#image = './streramlit-io/static/cat_background.jpg'
 image = "./app/static/rainbow-lights-1491649.jpg"
 
 css = f'''
