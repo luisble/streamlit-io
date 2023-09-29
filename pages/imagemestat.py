@@ -1,7 +1,7 @@
 import streamlit as st
 
 #image = './streramlit-io/static/cat_background.jpg'
-image = "./app/static/rainbow-lights-1491649.jpg"
+image = "./streamlit-io/static/rainbow-lights-1491649.jpg"
 
 css = f'''
 <style>
