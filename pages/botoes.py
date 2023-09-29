@@ -17,3 +17,5 @@ if st.session_state.clicked[1]:
     st.button('Second Button', on_click=clicked, args=[2])
     if st.session_state.clicked[2]:
         st.write('The second button was clicked')
+
+        
