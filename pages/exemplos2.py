@@ -4,6 +4,18 @@ import streamlit as st
 # import time
 
 image = "./app/static/rainbow-lights-1491649.jpg"
+css = f'''
+<style>
+    .stApp {{
+        background-image: url({image});
+    }}
+    .stApp > header {{
+        background-color: transparent;
+    }}
+</style>
+'''
+st.markdown(css, unsafe_allow_html=True)
+
 col1, col2 = st.columns(2)
 
 original = Image.open(image)
